@@ -3,6 +3,7 @@
 \begin{tikzpicture}
 
 % Define element styles with colors
+% Change the font colours to black if using light mode (built in dark mode)
 \tikzstyle{element} = [draw, minimum width=2.5em, minimum height=2.5em, font=\small, color=white]
 \tikzstyle{number} = [font=\tiny, color=white]
 \tikzstyle{undefined} = [element, fill=yellow!15]
@@ -24,12 +25,15 @@
 \node at (14, 2) {5};
 \node at (15, 2) {6};
 \node at (16, 2) {7};
-\node at (17, 2) {8};
+\node at (17, 2) {0};
 
 %links
 \fill[color=gray] (1.5,-5) circle (0.03125);
 \fill[color=gray] (1.5,-5.8) circle (0.03125);
 \fill[color=gray] (1.5,-6.2) circle (0.03125);
+\fill[color=gray] (3.5,-7.5) circle (0.03125);
+\fill[color=gray] (3.5,-8.7) circle (0.03125);
+\fill[color=gray] (3.5,-8.3) circle (0.03125);
 
 % Group labels
 \node at (0, 0.75) {(1)};
